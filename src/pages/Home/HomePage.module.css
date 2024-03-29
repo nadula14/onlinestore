@@ -1,0 +1,7 @@
+.home-page-container {
+    background-image: url(../../../../onlinestore/public/equipments/backgroundimage.jpg);/* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    /* Add any other styling you want for the background */
+  }
+  
