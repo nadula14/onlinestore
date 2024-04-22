@@ -15,3 +15,6 @@ export const getAllByTag = async tag => {
     equipment.tags?.includes(tag)
   );
 }
+
+export const getById = async equipmentId => 
+  sample_equipments.find(equipment => equipment.id === equipmentId);    
