@@ -10,12 +10,12 @@ export default function Tags({tags, forEquipmentPage}) {
     }}>
 
     {
-        tags.map(tag =>
+        tags.map(tag =>(
             <Link key={tag.Name} to={`/tag/${tag.Name}`}>
                 {tag.name}
                 {!forEquipmentPage && `(${tag.count})`}
             </Link>
-        )}
+        ))}
     </div>
   );
 }
